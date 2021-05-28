@@ -1,0 +1,18 @@
+version: "3"
+services:
+  reverse-proxy:
+    build:
+      context: reverse-proxy
+    image: rashmijoyappa/reverse-proxy
+  udagram-backend-user:
+    build:
+      context: ../udagram-backend-user
+    image: rashmijoyappa/udagram-backend-user
+  udagram-backend-feed:
+    build:
+      context: ../udagram-backend-feed
+    image: rashmijoyappa/udagram-backend-feed
+  udagram-frontend:
+    build:
+      context: ../udagram-frontend
+    image: rashmijoyappa/udagram-frontend
