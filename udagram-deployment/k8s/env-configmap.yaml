@@ -7,6 +7,6 @@ data:
   JWT_SECRET: hello
   POSTGRES_DB: postgres
   POSTGRES_HOST: rashmiudacity.cbcjanr5zyb7.us-east-1.rds.amazonaws.com
-  URL: http://7D82A0BE30299546DB695C09FAE77855.gr7.us-east-2.eks.amazonaws.com:8100
+  URL: http://AFF239382CE1C478EA4C7E5CF8B6BB37.gr7.us-east-1.eks.amazonaws.com:8100
 metadata:
   name: env-config
